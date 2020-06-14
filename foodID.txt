@@ -1,0 +1,24 @@
+can_tomato 170501 
+cooked_tomato 170050
+raw_tomato 170457 large
+spinach 170531
+chicken_breast 171078
+fried_egg 173423 large
+boiled_egg 173424 large
+娃娃菜 169337
+tofu 172461
+apple 171689 medium
+chicken_wing 173630 piece
+hashbrown 173298 serving
+egg_mcmuffin 172068 item
+oatmeal 173905
+rice 168878
+milk 170870
+pizza 173279
+sweet_potato 168483 medium
+coleslaw 172087 package
+biscuit 172086 biscuit
+fried_chicken 170353 breast
+apple_pie 175011 piece
+pork 167903
+shrimp 175180
