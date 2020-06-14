@@ -22,3 +22,4 @@ fried_chicken 170353 breast
 apple_pie 175011 piece
 pork 167903
 shrimp 175180
+bread 174924
