@@ -24,3 +24,6 @@ pork 167903
 shrimp 175180
 bread 174924
 cheese_bread 167944
+cake 174943
+soda 174852 medium
+mashed_potato 170699 cup

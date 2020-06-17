@@ -55,7 +55,7 @@ def get_conversion_factor(food: int, unit: str):
             
             if food_ID == food:
                 valid_unit.append(modifier)
-                if modifier.startswith(unit):
+                if unit in modifier:
                     return gram / quantity
 
     print(f'{Fore.GREEN}{unit}{Style.RESET_ALL} was not found for food {food}, attempting fallback')
@@ -92,7 +92,7 @@ def process_line(line):
 
     nutrient_info = get_info(food_ID)
     amount_in_g = get_conversion_factor(food_ID, unit) * float(amount)
-    nutrients = np.array([ nutrient_info[key] for key in NUTRIENTS])
+    nutrients = np.array([ nutrient_info[key] for key in NUTRIENTS], dtype=float)
     nutrients *= amount_in_g/100
 
     print(
